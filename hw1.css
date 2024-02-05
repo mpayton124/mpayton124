@@ -1,0 +1,77 @@
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 200%;
+  font-family: Sans-Serif;
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: lightpink;
+}
+
+a:hover {
+  font-size: 110%;
+}
+
+#graybox {
+  background-color: #495760;
+  padding: 10px;
+  width: 15%;
+  border: 5px outset black;
+}
+
+.headshot {
+  height: 400px;
+  width: 300px;
+}
+
+.column {
+  float: left;
+  width: 60%;
+}
+
+.rightcolumn {
+  float: right;
+  width: 10%;
+  background-color: #495760;
+  padding: 10px;
+  width: 15%;
+  border: 5px outset black;
+}
+
+span {
+  color: red;
+  font-weight: bold;
+}
+
+.nobullets {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+table, th, td {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-spacing: 0;
+}
+
+td {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #25251D;
+}
+
+tr:nth-child(odd) {
+    background-color: #6F6C53;
+}
